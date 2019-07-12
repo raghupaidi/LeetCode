@@ -11,7 +11,7 @@ namespace PatternExperiments.FactoryPattern
     {
         public Shape GetShape(String shapeType)
         {
-            Shape result= new Circle();
+            Shape result = new Circle();
 
             if (string.IsNullOrWhiteSpace(shapeType))
             {
@@ -21,16 +21,17 @@ namespace PatternExperiments.FactoryPattern
             switch (shapeType)
             {
                 case "Circle":
-                    result= new Circle();
+                    result = new Circle();
                     break;
                 case "Rectangle":
-                    result= new Circle();
+                    result = new Rectangle();
                     break;
                 case "Square":
-                    result= new Circle();
+                    result = new Square();
                     break;
-        }
+            }
 
             return result;
+        }
     }
 }

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCodeExperimentTests", "LCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternExperiments", "PatternExperiments\PatternExperiments.csproj", "{C1FB7646-CB6C-48B4-9A27-D32BEDFC0DF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternExperimentTests", "PatternExperimentTests\PatternExperimentTests.csproj", "{39DCDE74-5166-4BCA-9052-3CAA1C1A06B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C1FB7646-CB6C-48B4-9A27-D32BEDFC0DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1FB7646-CB6C-48B4-9A27-D32BEDFC0DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1FB7646-CB6C-48B4-9A27-D32BEDFC0DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39DCDE74-5166-4BCA-9052-3CAA1C1A06B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39DCDE74-5166-4BCA-9052-3CAA1C1A06B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39DCDE74-5166-4BCA-9052-3CAA1C1A06B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39DCDE74-5166-4BCA-9052-3CAA1C1A06B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
