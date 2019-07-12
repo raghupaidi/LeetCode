@@ -24,7 +24,6 @@ namespace LCodeExperimentTests.Algorithms
         {
             var testval = "abcabcbb";
             var expectedVal = 3;
-
             var returnedVal = LongestSubString.LengthOfLongestSubstring(testval);
 
             Assert.Equals(returnedVal, expectedVal);
