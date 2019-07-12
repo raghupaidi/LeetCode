@@ -16,7 +16,6 @@ namespace PatternExperiments.FactoryPattern
             if (string.IsNullOrWhiteSpace(shapeType))
             {
                 return null;
-
             }
 
             switch (shapeType)
